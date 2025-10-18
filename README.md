@@ -41,7 +41,7 @@ This repository is organized to guide you through every layer of building your s
 
 New to open-source smart home? It can feel overwhelming, but the journey is incredibly rewarding.
 
-1.  **Start with a Hub:** We highly recommend beginning with [Home Assistant](https://www.home-assistant.io/). It has a gentle learning curve and a massive, helpful community.
+1.  **Start with a Hub:** 
 2.  **Pick a Device:** Get a ESP8266
 3.  **Automate One Thing:** Start simple. "Turn on the light when motion is detected." Experience the magic!
 4.  **Explore and Expand:** From there, the possibilities are endless.
