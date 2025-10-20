@@ -1,5 +1,5 @@
 # awesome-smart-home
-An awesome open-source smart home : Home Assistant, ESPHome, and more. For local control, privacy, and DIY automation.
+An awesome open-source smart home : Home Assistant For local control, privacy, and DIY automation.with a cheap open source hadware and software.
 
 
 
