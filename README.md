@@ -3,8 +3,7 @@
 A versatile and robust home automation relay server built using the ESP8266 microcontroller. This project provides a flexible solution for controlling electrical appliances remotely through a web interface, operating in two distinct modes: Access Point (AP) and Station (Client) mode.
 
 ![ESP8266 Relay Controller](https://img.shields.io/badge/ESP8266-Relay%20Controller-blue.svg)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-Compatible-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/GPL--3.0-red?style=for-the-badge)
 
 ## 🚀 Features
 
