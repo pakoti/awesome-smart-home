@@ -5,6 +5,11 @@ A versatile and robust home automation relay server built using the ESP8266 micr
 ![ESP8266 Relay Controller](https://img.shields.io/badge/ESP8266-Relay%20Controller-blue.svg)
 ![License](https://img.shields.io/badge/GPL--3.0-red?style=for-the-badge)
 
+
+
+
+
+
 ## 🚀 Features
 
 - **Dual Operation Mode**: 
@@ -12,16 +17,17 @@ A versatile and robust home automation relay server built using the ESP8266 micr
   - **Station Mode**: Connects to your existing home WiFi network
 - **Web-Based Control**: Intuitive web interface for relay control
 - **Multiple Relay Support**: Control multiple relays simultaneously
-- **Real-time Status**: Live feedback of relay states
-- **RESTful API**: Programmatic control via HTTP endpoints
-- **OTA Updates**: Over-the-air firmware updates
 - **Secure Operation**: Basic authentication protection
 - **Responsive Design**: Works on desktop and mobile devices
+- **Real-time Status**: Live feedback of relay states(coming soon)
+- **RESTful API**: Programmatic control via HTTP endpoints(coming soon)
+- **OTA Updates**: Over-the-air firmware updates(coming soon)
+- **persistent webinterface**:saves the information for monitoring in EEPROM (coming soon)
 
 ## 📋 Prerequisites
 
 ### Hardware Requirements
-- ESP8266 NodeMCU or Wemos D1 Mini
+- ESP8266 NodeMCU
 - Relay modules (1-channel or 4-channel)
 - Jumper wires
 - Breadboard (optional)
@@ -50,15 +56,12 @@ A versatile and robust home automation relay server built using the ESP8266 micr
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/esp8266-relay-server.git
-   cd esp8266-relay-server
+   git clone https://github.com/pakoti/awesome-smart-home
+   cd awesome-smart-home
    ```
 
 2. **Install Dependencies**
-   - Using PlatformIO (recommended):
-     ```bash
-     platformio lib install
-     ```
+                           
    - Using Arduino IDE:
      - Install the following libraries through Library Manager:
        - ESP8266WiFi
@@ -154,6 +157,7 @@ The server provides a RESTful API that can be easily integrated with:
 ## 🔒 Security Features
 
 - Basic HTTP authentication
+- special password for Doors                                                   
 - Configurable access credentials
 - Network isolation in AP mode
 - Secure OTA updates
@@ -215,6 +219,8 @@ Enable debug output by setting `DEBUG_ENABLED` to `true` in `config.h`:
 - [ ] Temperature sensor integration
 - [ ] Voice control compatibility
 - [ ] Mobile app development
+- [ ] Dangerous Gas Detection
+
 
 ## 🤝 Contributing
 
@@ -240,12 +246,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 If you encounter any issues or have questions:
 1. Check the [Troubleshooting](#troubleshooting) section
-2. Search existing [GitHub Issues](https://github.com/yourusername/esp8266-relay-server/issues)
+2. Search existing [GitHub Issues](https://github.com/pakoti/awesome-smart-home)
 3. Create a new issue with detailed information
 
 ## 🏷️ Version History
 
-- **v1.0.0** (2024-01-01)
+- **v1.0.0** (2024-10-23)
   - Initial release
   - Basic relay control
   - Dual mode operation
