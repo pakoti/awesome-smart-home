@@ -6,6 +6,8 @@ A versatile and robust home automation relay server built using the ESP8266 micr
 ![License](https://img.shields.io/badge/GPL--3.0-red?style=for-the-badge)
 
 
+![Demo](./record.gif)
+
 
 
 
